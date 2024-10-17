@@ -65,12 +65,13 @@ exercise4(10,10,8)
 
 
 
-// Ejercicio 5
+
+
 
 function exercise5 (numberA, numberB, numberC){
 
     if (numberA> numberB & numberC){
-        console.log(numberA)}
+        console.log(numberA )}
 
     else if (numberB > numberA & numberC){
         console.log(numberB)}
@@ -83,7 +84,7 @@ function exercise5 (numberA, numberB, numberC){
 exercise5(4,4,7)
 
 
-// Ejercicio6
+// Crea una función que reciba un número entero y devuelva "Es divisible por 3" si es divisible por 3, "Es divisible por 5" si es divisible por 5, y "Es divisible por 3 y por 5" si es divisible por ambos. Si no es divisible por ninguno, devuelve el número.
 
 function exercise6(numero) {
     if (numero % 3 === 0 & numero % 5 === 0) {
@@ -99,7 +100,7 @@ function exercise6(numero) {
 exercise6(50)
 exercise6(45)
 
-// Ejercicio7
+// Crea una función que reciba un número entero y determine si es par o impar. Imprime por consola "Es un número par" o "Es un número impar" en función del resultado.
 
 function exercise7 (numero){
     if (numero % 2 === 0){
