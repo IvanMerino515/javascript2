@@ -219,7 +219,7 @@ console.log(result7)
 // Crea una función que reciba un año y determine si es un año bisiesto. Un año es bisiesto si es divisible por 4, pero no es divisible por 100, a menos que también sea divisible por 400. Imprime por consola "Es un año bisiesto" o "No es un año bisiesto" en función del resultado
 
 function exercise8(year) {
-    if ((year % 4 === 0 & year % 100 !== 0) || year % 400 === 0) {
+    if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
         console.log("Es un año bisiesto");
     } else {
         console.log("No es un año bisiesto");
@@ -231,7 +231,7 @@ exercise8(1992)
 // return
 
 function exercise8(year) {
-    if ((year % 4 === 0 & year % 100 !== 0) || year % 400 === 0) {
+    if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
         return("Es un año bisiesto");
     
         return ("No es un año bisiesto")
